@@ -4,7 +4,7 @@
  * Each time it checks if the middle element is the same as the item you searched for.
  * If not, it updates low/or high by +1/-1.
  * @param {Array} list 
- * @param {number or string} item 
+ * @param {number|string} item 
  */
 function binarySearch(list, item) {
     let low = 0
